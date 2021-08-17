@@ -2,6 +2,8 @@
 
 namespace App\JsonApi\V1;
 
+use App\Models\User;
+use App\Observers\UserObserver;
 use LaravelJsonApi\Core\Server\Server as BaseServer;
 
 class Server extends BaseServer
@@ -21,7 +23,7 @@ class Server extends BaseServer
      */
     public function serving(): void
     {
-        // no-op
+        User::observe(UserObserver::class);
     }
 
     /**
@@ -32,7 +34,7 @@ class Server extends BaseServer
     protected function allSchemas(): array
     {
         return [
-            // @TODO
+            Users\UserSchema::class,
         ];
     }
 }
