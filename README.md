@@ -1,6 +1,6 @@
-<p style="font-size: 36px" align="center">Laravel Admin Panel Backend</p>
+## Laravel Admin Panel Backend
 <p style="font-size: 16px">Laravel Admin Panel Backend provides basic admin panel APIs for any kind of
-admin dashboard. Developed by using
+front-end admin dashboard. Developing with using
 <a href="https://github.com/laravel/laravel">Laravel</a>,
 <a href="https://github.com/laravel-json-api/laravel">laravel-json-api</a>,
 <a href="https://github.com/spatie/laravel-permission">laravel-permission</a>.</p>
