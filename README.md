@@ -10,4 +10,4 @@ front-end admin dashboard. Being developed with using
 - 🛠️ Under construction
 
 ## License
-Laravel Admin Panel Backend is an open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Laravel Admin Panel Backend is an open-source software licensed under the [Apache License 2.0](https://github.com/laravel-json-api/laravel/blob/develop/LICENSE).
