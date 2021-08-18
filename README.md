@@ -1,4 +1,6 @@
 ## Laravel Admin Panel Backend
+<img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License">
+<img src="https://img.shields.io/github/checks-status/costpawa/laravel-admin-panel-backend/master" alt="License">
 <p style="font-size: 16px">Laravel Admin Panel Backend provides basic admin panel APIs for any kind of
 front-end admin dashboard. Being developed with using
 <a href="https://github.com/laravel/laravel">Laravel</a>,
