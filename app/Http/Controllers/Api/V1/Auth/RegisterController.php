@@ -31,11 +31,12 @@ class RegisterController extends Controller
             return (new LoginController)($loginRequest);
         } catch (ClientException $e) {
             $error = json_decode($e->getResponse()->getBody()->getContents());
-            return Error::fromArray([
+            $error = Error::fromArray([
                 'title' => 'Bad Request',
                 'detail' => $error->message,
                 'status' => '400',
             ]);
+            return $error->prepareResponse($request);
         }
     }
 }
